@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgba(0, 	0, 0, 0.1);
+}
+
+.login-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hamBurger--menu{
+    height: 40px;
+    width: 30px;
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+
+.center--logo{
+    position: fixed;
+    top: 7%;
+    left: 35%;
+    animation: upanddown 1s linear alternate-reverse infinite;
+    animation: changeBkg 5s linear infinite alternate-reverse;
+}
+
+@keyframes upanddown {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes changeBkg {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(90deg);
+    }
+}
+
+
+.bottom--logo{
+    position: fixed;
+    top: 55%;
+    left: 77%;
+    animation: upanddown 1s linear alternate-reverse infinite;
+    animation: changeBkg 5s linear infinite alternate-reverse;
+}
+
+.top--logo{
+    rotate: 45deg;
+    position: fixed;
+    top: -20%;
+    left: -10%;
+    animation: upanddown 1s linear alternate-reverse infinite;
+    animation: changeBkg 5s linear infinite alternate-reverse;
+}

@@ -1,0 +1,121 @@
+*{
+    text-shadow:  0 0 1px black,0 0 2px gray;
+}
+.outer-line {
+    background: linear-gradient(to top left, #ffffff6b,#fff3);
+    backdrop-filter: blur(8px);
+    height: 85vh;
+    width: 75vw;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 2px black,
+                0 0 8px black;
+}
+
+.inner-line {
+    height: 83.5vh;
+    width: 74.3vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.login-main-box {
+    height: 78%;
+    width: 98%;
+    border-radius: 7px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.5),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.login-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: rgba(0, 0, 0, .0);
+    padding: 5px;
+}
+
+input:focus {
+    outline:none !important;
+  }
+
+.input-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 10px;
+    border-bottom: 2px solid grey;
+    width: 95%;
+}
+
+
+.signup-box{
+    /* background-color: white; */
+    border-radius: 7px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.signup-apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS */
+.button-9 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s, box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.button-9:disabled {
+    cursor: default;
+}
+
+.button-9:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.button-9:hover{
+    background-color: #1437fa;
+}
